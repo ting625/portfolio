@@ -205,7 +205,6 @@ p {
    font-size: 14px;
 }
 
-
 /*============= CONTACT SECTION =============*/
 
 .footer {
@@ -296,3 +295,38 @@ Extra (xl) large devices (large desktops, 1200px and up)
    transform-style: preserve-3d;
    width: 100%;
 }
+
+/*============= PORTFOLIO PAGE =============*/
+
+body {
+   font-family: Arial, sans-serif;
+}
+.badge-custom {
+   background-color: hsl(54deg 97.82% 70.61% / 63%);
+   padding: 0.35rem 0.85rem;
+   border-radius: 1rem;
+   font-size: 0.85rem;
+   margin: 0.35rem;
+   font-family: var(--wp--preset--font-family--body);
+   display: inline-block;
+   color: #000000;
+   font-weight: 100;
+}
+.custom-table th, .custom-table td {
+   vertical-align: large;
+}
+.custom-table tbody tr:hover {
+   background-color: #f1f5f9;
+}
+.back-link {
+   text-decoration: none;
+   color: #007bff;
+   font-weight: bold;
+}
+.back-link:hover {
+   color: #5dade2;
+}
+.custom-table th, .custom-table td {
+   width: 33%; /* Equal width for each column */
+}
+
