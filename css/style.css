@@ -330,3 +330,14 @@ body {
    width: 33%; /* Equal width for each column */
 }
 
+.badge-custom-2 {
+   background-color: hsl(120deg 97.82% 70.61% / 63%);
+   padding: 0.35rem 0.85rem;
+   border-radius: 1rem;
+   font-size: 0.85rem;
+   margin: 0.35rem;
+   font-family: var(--wp--preset--font-family--body);
+   display: inline-block;
+   color: #000000;
+   font-weight: 100;
+}
