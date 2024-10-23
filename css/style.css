@@ -185,16 +185,6 @@ button:active, button:focus {
    text-align: center;
 }
 
-.tags_item {
-   background-color: hsl(54deg 97.82% 70.61% / 63%);
-   padding: 0.35rem 0.85rem;
-   border-radius: 1rem;
-   font-size: 0.85rem;
-   margin: 0.35rem;
-   font-family: var(--wp--preset--font-family--body);
-   display: inline-block;
-}
-
 li {
    list-style-type: none;
    unicode-bidi: isolate;
@@ -305,7 +295,7 @@ body {
    background-color: hsl(54deg 97.82% 70.61% / 63%);
    padding: 0.35rem 0.85rem;
    border-radius: 1rem;
-   font-size: 0.85rem;
+   font-size: 0.9rem;
    margin: 0.35rem;
    font-family: var(--wp--preset--font-family--body);
    display: inline-block;
@@ -334,7 +324,19 @@ body {
    background-color: hsl(120deg 97.82% 70.61% / 63%);
    padding: 0.35rem 0.85rem;
    border-radius: 1rem;
-   font-size: 0.85rem;
+   font-size: 0.9rem;
+   margin: 0.35rem;
+   font-family: var(--wp--preset--font-family--body);
+   display: inline-block;
+   color: #000000;
+   font-weight: 100;
+}
+
+.badge-custom-3 {
+   background-color: hsl(210deg, 97.82%, 70.61%, 63%);
+   padding: 0.35rem 0.85rem;
+   border-radius: 1rem;
+   font-size: 0.9rem;
    margin: 0.35rem;
    font-family: var(--wp--preset--font-family--body);
    display: inline-block;
