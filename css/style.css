@@ -36,7 +36,7 @@ a {
 
 /*-- Make Paragraph Text Larger --*/
 p {
-   font-size: 1.2rem!important;
+   font-size: 1.15rem!important;
  }
  
  /*-- Box Shadow Button & Image Styling --*/
@@ -355,22 +355,22 @@ body {
        border-bottom: 1px solid #ddd;
    }
    .badge-custom, .badge-custom-2, .badge-custom-3 {
-       font-size: 0.8rem;
+       font-size: 1.5rem;
        padding: 0.3rem 0.7rem;
    }
-   .back-link {
-       font-size: 1rem;
+   p, .back-link {
+       font-size: 1.5rem;
    }
 }
 
 /* Mobile (max-width: 576px) */
 @media (max-width: 576px) {
    .badge-custom, .badge-custom-2, .badge-custom-3 {
-       font-size: 0.75rem;
-       padding: 0.25rem 0.65rem;
+       padding: 0.3rem 0.7rem;
+       font-size: 1.5rem;
    }
-   .back-link {
-       font-size: 0.9rem;
+   p, .back-link {
+       font-size: 1.5rem;
    }
 }
 
