@@ -367,10 +367,10 @@ body {
 @media (max-width: 576px) {
    .badge-custom, .badge-custom-2, .badge-custom-3 {
        padding: 0.25rem 0.6rem;
-       font-size: 1.2rem; /* Adjusted to a smaller size */
+       font-size: 0.85rem; /* Adjusted to a smaller size */
    }
    p, .back-link {
-       font-size: 1.2rem; /* Slightly reduced as well */
+       font-size: 0.85rem; /* Slightly reduced as well */
    }
 }
 
