@@ -349,3 +349,10 @@ body {
        width: 50%; 
    }
 }
+
+/* Tablet (max-width: 768px) */
+@media (max-width: 768px) {
+   .row .col-md-6 img {
+       width: 80%; 
+   }
+}
