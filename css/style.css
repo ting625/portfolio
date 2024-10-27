@@ -163,6 +163,19 @@ button:active, button:focus {
 
 /*============= PROJECT SECTION =============*/
 
+@media (max-width: 576px) {
+   .row .col-md-6 img {
+       width: 50%; 
+   }
+}
+
+/* Tablet (max-width: 768px) */
+@media (max-width: 768px) {
+   .row .col-md-6 img {
+       width: 80%; 
+   }
+}
+
 
 /*============= PORTFOLIO SECTION =============*/
 
@@ -194,6 +207,8 @@ li {
 p {
    font-size: 14px;
 }
+
+
 
 /*============= CONTACT SECTION =============*/
 
@@ -289,9 +304,10 @@ Extra (xl) large devices (large desktops, 1200px and up)
 /*============= PORTFOLIO PAGE =============*/
 
 body {
-   font-family: Arial, sans-serif;
+   font-family: 'Open Sans', sans-serif;
 }
-.badge-custom {
+/* Badge Styles */
+.badge-custom, .badge-custom-2, .badge-custom-3 {
    background-color: hsl(54deg 97.82% 70.61% / 63%);
    padding: 0.35rem 0.85rem;
    border-radius: 1rem;
@@ -300,14 +316,22 @@ body {
    font-family: var(--wp--preset--font-family--body);
    display: inline-block;
    color: #000000;
-   font-weight: 100;
+   font-weight: 400;
 }
+.badge-custom-2 { background-color: hsl(120deg 97.82% 70.61% / 63%); }
+.badge-custom-3 { background-color: hsl(210deg, 97.82%, 70.61%, 63%); }
+
+/* Table Styles */
 .custom-table th, .custom-table td {
-   vertical-align: large;
+   width: 33%; /* Equal width for each column */
+   vertical-align: middle;
+   text-align: left;
 }
 .custom-table tbody tr:hover {
    background-color: #f1f5f9;
 }
+
+/* Back Link */
 .back-link {
    text-decoration: none;
    color: #007bff;
@@ -316,43 +340,39 @@ body {
 .back-link:hover {
    color: #5dade2;
 }
-.custom-table th, .custom-table td {
-   width: 33%; /* Equal width for each column */
-}
 
-.badge-custom-2 {
-   background-color: hsl(120deg 97.82% 70.61% / 63%);
-   padding: 0.35rem 0.85rem;
-   border-radius: 1rem;
-   font-size: 0.9rem;
-   margin: 0.35rem;
-   font-family: var(--wp--preset--font-family--body);
-   display: inline-block;
-   color: #000000;
-   font-weight: 100;
-}
-
-.badge-custom-3 {
-   background-color: hsl(210deg, 97.82%, 70.61%, 63%);
-   padding: 0.35rem 0.85rem;
-   border-radius: 1rem;
-   font-size: 0.9rem;
-   margin: 0.35rem;
-   font-family: var(--wp--preset--font-family--body);
-   display: inline-block;
-   color: #000000;
-   font-weight: 100;
-}
-
-@media (max-width: 576px) {
-   .row .col-md-6 img {
-       width: 50%; 
-   }
-}
-
-/* Tablet (max-width: 768px) */
+/* Responsive Adjustments */
 @media (max-width: 768px) {
-   .row .col-md-6 img {
-       width: 80%; 
+   .custom-table, .custom-table th, .custom-table td {
+       display: block;
+       width: 100%;
+   }
+   .custom-table tbody tr {
+       display: flex;
+       flex-direction: column;
+       align-items: flex-start;
+       padding: 10px;
+       border-bottom: 1px solid #ddd;
+   }
+   .badge-custom, .badge-custom-2, .badge-custom-3 {
+       font-size: 0.8rem;
+       padding: 0.3rem 0.7rem;
+   }
+   .back-link {
+       font-size: 1rem;
    }
 }
+
+/* Mobile (max-width: 576px) */
+@media (max-width: 576px) {
+   .badge-custom, .badge-custom-2, .badge-custom-3 {
+       font-size: 0.75rem;
+       padding: 0.25rem 0.65rem;
+   }
+   .back-link {
+       font-size: 0.9rem;
+   }
+}
+
+
+
