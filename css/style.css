@@ -374,5 +374,35 @@ body {
    }
 }
 
+/* Contact Image */
+
+@media (max-width: 576px) {
+   .rounded-circle {
+       width: 100%; /* Full width for extra-small screens */
+   }
+}
+
+.img-fluid {
+   max-width: 60%;
+   height: auto;
+}
+
+/* Tablet-specific adjustments */
+@media (max-width: 992px) {
+   .col-md-5 {
+       max-width: 80%; /* Adjusts the width for tablets */
+   }
+   .img-fluid {
+       max-width: 70%; /* Keeps the image slightly smaller on tablets */
+   }
+}
+
+/* Center alignment for contact section on smaller devices */
+@media (max-width: 768px) {
+   .col-md-5 {
+       text-align: center; /* Centers the text and image on smaller screens */
+   }
+}
+
 
 
